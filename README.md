@@ -1,14 +1,3 @@
-Below is your **complete, professional, copy-paste-ready `README.md`**, fully written based on:
-
-✔ All your uploaded Python scripts
-✔ Your Streamlit dashboard
-✔ Your `run.py` pipeline
-✔ Your storage, rules, improver, search, emailer, utilities
-✔ Your **Project PDF: Python Parallel Text Handling Processor**
-✔ GitHub-grade formatting
-
----
-
 # 🚀 **Python Parallel Text Handling Processor**
 
 A high-performance, scalable, multi-threaded **Text Processing, Rule-Based Scoring, Search, Storage & Analytics System** built entirely in Python.
@@ -193,7 +182,7 @@ streamlit run streamlit_app.py
 
 # 🧩 **Key Modules Explained**
 
-### 🔹 **parallel_break_loader.py**
+### 1. **parallel_break_loader.py**
 
 Handles full pipeline:
 
@@ -203,34 +192,34 @@ Handles full pipeline:
 * Saving
 * Parallel execution
 
-### 🔹 **text_breaker.py**
+### 2. **text_breaker.py**
 
 * Cleans text
 * Splits into fixed-size word groups
 
-### 🔹 **checker.py**
+### 3. **checker.py**
 
 * Applies rules
 * Scores text
 * Stores results
 
-### 🔹 **storage.py**
+### 4. **storage.py**
 
 * SQLite backend
 * Query builder
 * Hash existence check
 
-### 🔹 **search_save.py**
+### 5. **search_save.py**
 
 * Regex / keyword search
 * CSV export
 
-### 🔹 **emailer.py**
+### 6. **emailer.py**
 
 * Email summary
 * HTML email generator
 
-### 🔹 **storage_improver.py**
+### 7. **storage_improver.py**
 
 * Auto-rule suggestions based on DB frequency
 
