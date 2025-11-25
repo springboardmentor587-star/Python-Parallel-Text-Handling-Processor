@@ -143,16 +143,16 @@ python run.py
 
 The system automatically performs:
 
-1️⃣ Load rules from `rules.json`
-2️⃣ Load & clean text files
-3️⃣ Chunk into groups
-4️⃣ Deduplicate using SHA-256 hashes
-5️⃣ Run parallel rule-based scoring
-6️⃣ Store results in SQLite DB
-7️⃣ Run storage improver
-8️⃣ Perform sample search
-9️⃣ Export results to CSV
-🔟 Generate email summary (optional)
+1️⃣ Load rules from `rules.json` <br>
+2️⃣ Load & clean text files <br>
+3️⃣ Chunk into groups <br>
+4️⃣ Deduplicate using SHA-256 hashes <br>
+5️⃣ Run parallel rule-based scoring <br>
+6️⃣ Store results in SQLite DB <br>
+7️⃣ Run storage improver <br>
+8️⃣ Perform sample search <br>
+9️⃣ Export results to CSV <br>
+🔟 Generate email summary <br>
 
 ---
 
@@ -250,7 +250,7 @@ DB_PATH=checks.db
 SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
 EMAIL_ADDRESS=youremail@gmail.com
-EMAIL_PASSWORD=yourpassword
+EMAIL_PASSWORD=yourapppassword
 ```
 
 ### **4. Folder Setup**
@@ -356,20 +356,16 @@ This saves compute and prevents duplicates.
 
 ---
 
-# 👨‍💻 **Contributors**
+## 👥 Contributors
 
-| Name                   | Role                                           |
-| ---------------------- | ---------------------------------------------- |
-| **You (Project Lead)** | Architecture, Pipeline Design, Guidance        |
-| **Your Students**      | Module Implementation, Testing, UI Development |
+### 👨‍💼 Project Lead  
+- **Charan Teja Mangali** — Lead Developer, System Architect & Mentor
 
-You can list your students here as contributors:
-
-```
-- Student Name — Developer
-- Student Name — Data Engineer
-- Student Name — UI/UX
-```
+### 🎓 Student Contributors  
+- **Student Name 1** —   
+- **Student Name 2** —   
+- **Student Name 3** —   
+- **Student Name 4** —    
 
 ---
 
@@ -379,12 +375,3 @@ If you like this project, consider giving it a ⭐ on GitHub!
 
 ---
 
-If you want, I can also create:
-
-✅ Shields badges
-✅ Project logo banner
-✅ Architecture diagram (PNG)
-✅ Workflow diagram
-✅ Contributor graph section
-
-Just tell me!
