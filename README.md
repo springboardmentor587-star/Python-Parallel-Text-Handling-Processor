@@ -227,7 +227,14 @@ Handles full pipeline:
 
 # ⚙️ **Installation & Setup**
 
-### **1. Create Virtual Environment**
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/springboardmentor587-star/Python-Parallel-Text-Handling-Processor.git
+cd Python-Parallel-Text-Handling-Processor
+```
+
+### **2. Create & Activate Virtual Environment**
 
 ```
 python -m venv venv
@@ -235,13 +242,13 @@ source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
 
-### **2. Install Dependencies**
+### **3. Install Dependencies**
 
 ```
 pip install -r requirements.txt
 ```
 
-### **3. Environment Variables**
+### **4. Environment Variables**
 
 Create `.env` file:
 
@@ -253,7 +260,7 @@ EMAIL_ADDRESS=youremail@gmail.com
 EMAIL_PASSWORD=yourapppassword
 ```
 
-### **4. Folder Setup**
+### **5. Folder Setup**
 
 ```
 mkdir data/support_text_files
